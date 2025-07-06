@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+@config "../../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-gray-100 text-gray-900;
+  }
+}
